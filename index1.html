@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muallim Education Analytics</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Lora, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background-color: #005a9c;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header img {
+            height: 80px;
+            display: block;
+            margin: 0 auto 5px;
+        }
+
+        header h1 {
+            margin: 10px 0 5px;
+            font-size: 28px;
+        }
+
+        header h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #005a9c;
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+
+        footer img {
+            height: 40px;
+            display: block;
+            margin: 0 auto 5px;
+        }
+
+        /* Card Container */
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Cards */
+        .card {
+            background-color: #fffbea;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+            color: black;
+        }
+
+        .card img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            font-size: 16px;
+            margin: 10px 0 0;
+            font-weight: bold;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        /* Remove underline for links */
+        a {
+            text-decoration: none;
+        }
+
+        /* Responsive Header Font Sizes */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 24px;
+            }
+
+            header h2 {
+                font-size: 18px;
+            }
+
+            header img {
+                height: 60px;
+            }
+        }
+
+        /* Responsive Card Sizes */
+        @media (max-width: 768px) {
+            .card img {
+                width: 50px;
+            }
+
+            .card h3 {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card-container {
+                padding: 10px;
+                gap: 10px;
+            }
+
+            .card {
+                padding: 15px;
+            }
+
+            .card img {
+                width: 40px;
+            }
+
+            .card h3 {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="LOGO PPD MUALLIM PUTIH-03.png" alt="PPD Muallim Logo" class="logo">
+        <h1>MUALLIM</h1>
+        <h2>EDUCATION ANALYTICS</h2>
+    </header>
+
+    <!-- Card Section -->
+    <div class="card-container">
+        <!-- Card 1: Clickable -->
+        <a href="DASHBOARD DATA PEPERIKSAAN DALAMAN SPM.html" class="card">
+            <img src="education.png" alt="Exam Dashboard">
+            <h3>DASHBOARD DATA PEPERIKSAAN DALAMAN SPM</h3>
+        </a>
+
+        <!-- Card 2: Clickable -->
+        <a href="DASHBOARD DATA KO-AKADEMIK.html" class="card">
+            <img src="SPORT.png" alt="Ko-Akademik Dashboard">
+            <h3>DASHBOARD DATA KO-AKADEMIK</h3>
+        </a>
+
+        <!-- Card 3: Clickable -->
+        <a href="DASHBOARD DATA PEMULIHAN KHAS.html" class="card">
+            <img src="ABC.png" alt="Pemulihan Khas Dashboard">
+            <h3>DASHBOARD DATA PEMULIHAN KHAS</h3>
+        </a>
+
+        <!-- Card 4: Clickable -->
+        <a href="DASHBOARD DATA PROGRAM INTERVENSI.html" class="card">
+            <img src="MATH.png" alt="Literacy Dashboard">
+            <h3>DASHBOARD DATA PROGRAM INTERVENSI LITERASI NUMERASI TAHUN 1</h3>
+        </a>
+
+        <!-- Card 5: Clickable -->
+        <a href="DASHBOARD KEHADIRAN MURID TINGKATAN 5.html" class="card">
+            <img src="GRAPH.png" alt="Attendance Dashboard">
+            <h3>DASHBOARD KEHADIRAN MURID TINGKATAN 5</h3>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <img src="AT MUALLIM DAERAH ILMU PUTIH.png" alt="Muallim Footer Logo">
+    </footer>
+
+</body>
+</html>
